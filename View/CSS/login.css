@@ -1,0 +1,87 @@
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+.top h1 {
+    border-radius: 12px;
+    padding: 5px;
+
+}
+
+#login h1 {
+    font-family: 'roboto';
+    margin: 0px;
+
+}
+
+#login form {
+    box-shadow: 0 5px 10px rgb(162 162 162);
+    background-color: white;
+    display: inline-block;
+    padding: 33px;
+    opacity: 0.90;
+}
+
+input {
+    height: 25px;
+    margin: 6px 6px;
+
+}
+
+#login-btn {
+    background-color: rgb(235, 233, 250);
+    color: rgb(35, 35, 35);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 40px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#loginbtn:hover {
+    background-color: rgb(71, 62, 202);
+    color: white;
+
+}
+
+
+/* adding new css for validation */
+.form-control i {
+    position: absolute;
+    top: 255px;
+    left: 20px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    top: 280px;
+    color: red;
+    left: 520px;
+}
+
+.form-control1 i {
+    position: absolute;
+    top: 315px;
+    left: 20px;
+    visibility: hidden;
+}
+
+.form-control1 small {
+    visibility: hidden;
+    position: absolute;
+    top: 340px;
+    color: red;
+    left: 520px;
+}

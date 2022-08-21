@@ -1,0 +1,120 @@
+@font-face {
+    font-family: eczar;
+    src: url(../fonts/eczar/Eczar-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto';
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    background-color: rgb(103, 94, 243);
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+}
+
+.links {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.backgroung-img {
+    height: 510px;
+}
+
+.btn:hover {
+    background-color: rgb(59, 51, 175);
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 250px;
+}
+
+
+.form-div {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(162, 162, 162);
+    padding: 30px;
+    background-color: white;
+}
+
+.label {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.back-btn-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.back-btn-and-title a {
+    padding-right: 100px;
+}
+
+.admin-login-text {
+    margin: auto;
+}
+
+.new-admin-label {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(204, 204, 204);
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: rgb(71, 62, 202);
+}
+
+.register-btn {
+    background-color: rgb(235, 233, 250);
+    color: rgb(35, 35, 35);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.register-btn:hover {
+    background-color: rgb(71, 62, 202);
+    color: white;
+}
+
+/* after log in  */
+
+.view-profile {
+    margin-left: 20px;
+}
